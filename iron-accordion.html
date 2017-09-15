@@ -56,10 +56,10 @@ Example multiple:
     </style>
 
     <div id="header">
-      <slot select="[header]"></slot>
+      <slot name="header"></slot>
     </div>
     <iron-collapse id="content" opened="{{opened}}">
-      <content></content>
+      <slot></slot>
     </iron-collapse>
   </template>
 
